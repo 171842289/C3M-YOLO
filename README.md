@@ -1,4 +1,7 @@
 # C3M-YOLO
+## Module
+You could find the Lightweight Module C3M and Attention Module in the file named ``common.py``.
+
 ## Training
 You can use the following command to start training in the command line, the data for your own datasets and this weights for pretrained one：  
 
