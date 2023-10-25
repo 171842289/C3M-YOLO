@@ -1,9 +1,11 @@
 # C3M-YOLO
 ## Training
-You can use the following command to start training in the command line：
-'python train.py --data data.yaml --epochs 300 --weights '' --cfg yolov5s.yaml  --batch-size 16'
+You can use the following command to start training in the command line, the data for your own datasets and this weights for pretrained one：  
+
+``python train.py --data data.yaml --epochs 300 --weights '' --cfg yolov5s.yaml  --batch-size 16``
 
 ## Val
-For testing your model:
-'python val.py'
+For testing your model, and you also could set relevant parameters, for example the weights for the model which you has trained:  
+
+``python val.py``
 
